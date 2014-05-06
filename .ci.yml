@@ -2,5 +2,7 @@ environment:
     language: ruby
     image: mattdm/fedora-small:f19
 build:
-    run: echo Hello World
+    run:
+        unit: echo Hello World
+        unit2: echo GoodBye World
     
