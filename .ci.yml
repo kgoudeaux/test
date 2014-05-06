@@ -1,6 +1,7 @@
 environment:
     language: ruby
 build:
-    before: true
+    before:
+        - true
     run: echo Hello World
     
