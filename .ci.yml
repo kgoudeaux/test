@@ -1,5 +1,6 @@
 environment:
     language: ruby
+    image: mattdm/fedora-small:f19
 build:
     run: echo Hello World
     
